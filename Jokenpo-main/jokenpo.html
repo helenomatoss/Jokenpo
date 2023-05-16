@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dados</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 class="nome">JOKENPO</h1>
+      <input type="button" value="JOGAR" class="botao1"  onclick="iniciar()">
+      <input type="button" value="REINICIAR" onclick="zerar()" class="botao2">
+
+      <div class="jokenpo">
+        <p class="player1">Jogador 1</p>
+        <img class="img1" src="images/pedra1.png">
+      </div>
+
+      <div class="jokenpo">
+        <p class="player2">Jogador 2</p>
+        <img class="img2" src="images/pedra2.png">
+      </div>
+      <p id="P1">Jogador 1 = 0 Pontos</p>
+      <p id="P2">Jogador 2 = 0 Pontos</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+  <footer>
+    Heleno
+  </footer>
+</html>
